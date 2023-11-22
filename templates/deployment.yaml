@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: kaster-client
+  labels:
+    app: kaster
+spec:
+ 
+  replicas: 1
+ 
+  selector:
+    matchLabels:
+      app: kaster
+  template:
+    metadata:      
+      labels:
+        app: kaster
+    spec:
+      serviceAccountName: kaster-sa 
+      containers:
+        - name: kasterclient
+          image: "kasterbot/kaster-client:latest"
+          imagePullPolicy: Always
+          ports:
+            - name: "http"
+              containerPort: 1097
+              protocol: TCP
+          env:
+            - name: KASTER_API_KEY
+              value: "{{ .Values.env.value }}"
