@@ -3,12 +3,52 @@ entries:
   kaster:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-11-22T15:22:54.2352917+01:00"
+    created: "2023-11-22T17:28:20.9626491+01:00"
     description: Helm chart for Kaster-client
-    digest: 6ebe9e3166194d0856d04bda3b17cb9547bd58fafdec382cd5abb93b76ce3342
+    digest: 267ee085dfe32166aa6bc3e2f9d384d6c2e8a1bc73fc4072baa64d68435c0cac
     name: kaster
     type: application
     urls:
-    - https://github.com/KasterBot/kaster-client.git/docs/kaster-0.1.0.tgz
+    - https://kasterbot.github.io/kaster-client/kaster-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-22T17:28:20.9646797+01:00"
+    description: Helm chart for Kaster-client
+    digest: 267ee085dfe32166aa6bc3e2f9d384d6c2e8a1bc73fc4072baa64d68435c0cac
+    name: kaster
+    type: application
+    urls:
+    - https://kasterbot.github.io/kaster-client/docs/kaster-1.0.0.tgz
+    version: 1.0.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-22T17:28:20.9610449+01:00"
+    description: Helm chart for Kaster-client
+    digest: 22512a6aee9717d5a3c064e033d5699a0c1bc13c6c24e83f1d3ff705e370fbe8
+    name: kaster
+    type: application
+    urls:
+    - https://kasterbot.github.io/kaster-client/kaster-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-22T17:28:20.9605307+01:00"
+    description: Helm chart for Kaster-client
+    digest: 46c467af04c0b5534c3b65cc45d11d14f81c07cc64efc189365e6da39a49b831
+    name: kaster
+    type: application
+    urls:
+    - https://kasterbot.github.io/kaster-client/kaster-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-22T15:22:54.2327333+01:00"
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-22T17:28:20.963172+01:00"
+    description: Helm chart for Kaster-client
+    digest: b7977d809b8e0e0161e7c75de94441dd79f37bdd7d676dc73663b37ca6e1a11a
+    name: kaster
+    type: application
+    urls:
+    - https://kasterbot.github.io/kaster-client/docs/kaster-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-11-22T17:28:20.9592151+01:00"
