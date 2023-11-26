@@ -3,7 +3,7 @@ env:
 
 
 service:
-  type: LoadBalancer
+  type: NodePort
   port: 1097
 
 ingress:
