@@ -3,9 +3,19 @@ entries:
   kaster:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-11-26T18:14:15.5793152+01:00"
+    created: "2023-11-26T18:23:05.416717+01:00"
     description: Helm chart for Kaster-client
-    digest: 955c10347bb369ce3f37848c7e5cf3d8c82cd320a5f1da438bc9cdbbc456b9c3
+    digest: c5d7006ff5f092f360b8d085e059a4b64f01a96429e1e04f8f58af133917a0ef
+    name: kaster
+    type: application
+    urls:
+    - https://kasterbot.github.io/kaster-client/kaster-1.1.2.tgz
+    version: 1.1.2
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-26T18:23:05.4069708+01:00"
+    description: Helm chart for Kaster-client
+    digest: a68e52ff8772e780e0cc0763c879eae4988536aee2ef8000ac9a71db63074273
     name: kaster
     type: application
     urls:
@@ -13,7 +23,17 @@ entries:
     version: 1.1.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-11-26T18:14:15.5752539+01:00"
+    created: "2023-11-26T18:23:05.4194917+01:00"
+    description: Helm chart for Kaster-client
+    digest: 955c10347bb369ce3f37848c7e5cf3d8c82cd320a5f1da438bc9cdbbc456b9c3
+    name: kaster
+    type: application
+    urls:
+    - https://kasterbot.github.io/kaster-client/docs/kaster-1.1.0.tgz
+    version: 1.1.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-11-26T18:23:05.4012718+01:00"
     description: Helm chart for Kaster-client
     digest: c7ea1a8e1e8e211b93877a6d7c2b340aa29c6d6721aa5e8dc18027c69b8442c1
     name: kaster
@@ -23,7 +43,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-11-26T18:14:15.580382+01:00"
+    created: "2023-11-26T18:23:05.4177522+01:00"
     description: Helm chart for Kaster-client
     digest: c7ea1a8e1e8e211b93877a6d7c2b340aa29c6d6721aa5e8dc18027c69b8442c1
     name: kaster
@@ -31,4 +51,4 @@ entries:
     urls:
     - https://kasterbot.github.io/kaster-client/docs/kaster-1.0.0.tgz
     version: 1.0.0
-generated: "2023-11-26T18:14:15.5739756+01:00"
+generated: "2023-11-26T18:23:05.3996267+01:00"
