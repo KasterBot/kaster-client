@@ -3,7 +3,7 @@ entries:
   kaster:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-01T10:57:08.7181962+01:00"
+    created: "2023-12-01T10:55:41.9673789+01:00"
     description: Helm chart for Kaster-client
     digest: 0c1aa25202ab87800e13df6a401bcc0a2ae0882de50aa21d008977ac3383610a
     name: kaster
@@ -11,4 +11,4 @@ entries:
     urls:
     - https://kasterbot.github.io/kaster-client/kaster-1.1.3.tgz
     version: 1.1.3
-generated: "2023-12-01T10:57:08.7181962+01:00"
+generated: "2023-12-01T10:55:41.9635074+01:00"
