@@ -10,9 +10,13 @@ Choose a plan in RapidAPI and install the kaster-client in your k8s cluster and/
 
 ### Install kaster-client on k8s cluster
 
-```helm repo add kasterbot https://kasterbot.github.io/kaster-client```
+```bash
+helm repo add kasterbot https://kasterbot.github.io/kaster-client
+```
 
-```helm repo update kasterbot```
+```bash
+helm repo update kasterbot
+```
 
 Create a yaml file `custom.yaml` and type this code:
 ```yaml
@@ -21,6 +25,6 @@ env:
 
 ```
 
-```
+```bash
 helm install kaster-client kasterbot/kaster -f custom.yaml 
 ```
